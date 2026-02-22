@@ -1,4 +1,4 @@
-FROM runpod/worker-v1-vllm:stable-cuda12.1.0
+FROM runpod/worker-v1-vllm:stable-cuda12.9.1
 
 RUN echo '{"MODEL_NAME": "/runpod-volume/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored", "MAX_MODEL_LEN": "4096"}' > /local_model_args.json
 
